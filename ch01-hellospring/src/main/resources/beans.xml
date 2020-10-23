@@ -15,6 +15,13 @@
     -->
     <bean id="someService" class = "com.fzg.service.impl.SomeServiceImpl"/>
 
+    <bean id="someService1" class = "com.fzg.service.impl.SomeServiceImpl"/>
+
+    <!--
+        spring能创建一个非自定义类的对象
+    -->
+    <bean id = "mydate" class = "java.util.Date" />
+
 </beans>
 <!--
     spring的配置文件
